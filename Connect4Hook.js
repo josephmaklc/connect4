@@ -193,7 +193,6 @@ function Connect4Hook() {
       return;
     }
 
-    console.log("s1: "+playerTurn);
     // update turn
     if (playerTurn === 0) setPlayerTurn(1);
     else {
